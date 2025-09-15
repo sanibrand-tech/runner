@@ -10,7 +10,6 @@ const proxyPort = process.env['PROXYPORT'] || ''
 const proxyUsername = process.env['PROXYUSERNAME'] || ''
 const proxyPassword = process.env['PROXYPASSWORD'] || ''
 
-process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0'
 
 if (proxyHost === '') {
     const options = {
